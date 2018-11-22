@@ -44,7 +44,8 @@ void thirdTask()
   switch (vector.back())
   {
     case 1:
-      for (auto it = vector.begin(); it != vector.end();++it)
+    
+      for (auto it = vector.begin(); it != vector.end(); ++it)
       {
         if (*it % 2 == 0)
         {
@@ -52,19 +53,22 @@ void thirdTask()
           it--;
         }
       }
+
       break;
 
     case 2:
+
       vector.reserve(vector.size() + multiple * 3);
 
-      for (auto it = vector.begin(); it != vector.end();++it)
-      {
+      for (auto it = vector.begin(); it != vector.end(); ++it)
+      { 
         if (*it % 3 == 0)
         {
           vector.insert(it + 1, 3, 1);
           it += 2;
         }
       }
+
       break; 
   }
 

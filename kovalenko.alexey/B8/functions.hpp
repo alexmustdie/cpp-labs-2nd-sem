@@ -7,8 +7,8 @@
 #include <algorithm>
 #include <stdexcept>
 #include <sstream>
-#include "circle.hpp"
-#include "triangle.hpp"
+#include "Circle.hpp"
+#include "Triangle.hpp"
 #include "Square.hpp"
 
 void printShape(const std::vector<Shape *> &tmp);

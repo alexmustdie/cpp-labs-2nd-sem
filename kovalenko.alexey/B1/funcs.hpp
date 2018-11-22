@@ -41,7 +41,7 @@ void print(const ContainerType &container, bool space_insert = true)
     return;
   }
 
-  for (auto it = container.begin(); it != container.end();++it)
+  for (auto it = container.begin(); it != container.end(); ++it)
   {
     std::cout << *it;
 

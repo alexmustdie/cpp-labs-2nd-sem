@@ -30,7 +30,7 @@ struct Access
     {
       auto iter = container.begin();
 
-      for (size_t i = 0; iter != container.end();++iter, i++)
+      for (size_t i = 0; iter != container.end(); ++iter, i++)
       {
         if (i == index)
         {
@@ -38,7 +38,7 @@ struct Access
         }
       }
 
-      return const_cast<element_t*>(&(*iter));
+      return &(*iter);
     }
   };
 };

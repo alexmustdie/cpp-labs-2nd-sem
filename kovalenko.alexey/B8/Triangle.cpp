@@ -1,4 +1,4 @@
-#include "triangle.hpp"
+#include "Triangle.hpp"
 
 void Triangle::draw(std::ostream &stream) const
 {

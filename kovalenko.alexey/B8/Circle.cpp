@@ -1,4 +1,4 @@
-#include "circle.hpp"
+#include "Circle.hpp"
 
 void Circle::draw(std::ostream &stream) const
 {

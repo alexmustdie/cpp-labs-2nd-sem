@@ -1,7 +1,7 @@
 #ifndef SQUARE_H
 #define SQUARE_H
 
-#include "shape.hpp"
+#include "Shape.hpp"
 
 class Square : public Shape {
 public:
